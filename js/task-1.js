@@ -1,9 +1,7 @@
 
-const ulElem = document.querySelector("ul");
-const liElem = ulElem.querySelectorAll("li");
+const liElem = document.querySelector("li");
 
-
-
+console.log(liElem);
 
 // З використанням властивостей і методів DOM-елементів, напиши скрипт, який:
 
