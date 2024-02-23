@@ -47,7 +47,19 @@ img {
 }
 
 
+.gallery {
+  width: 1440px;
+  height: 848px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+  column-gap: 64px;
+  list-style-type: none;
 
+  padding: 100px, 130px;
+}
 
 /* після галерії  */
 

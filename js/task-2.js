@@ -30,3 +30,29 @@ const images = [
 ];
 
 
+// const containerGalleryEl = document.querySelector(".gallery");
+
+// const myImages = [];
+
+
+// for (const image of images) {
+//   const liElem = document.createElement ("li");
+//   liElem.classList.add("gallery-item");
+
+
+//   const firstChild = document.createElement("img");
+//   firstChild.style.width = "300px";
+//   firstChild.style.height = "360px";
+//   firstChild.src = images.url;
+//   firstChild.alt = images.alt;
+
+// myImages.append(firstChild);
+
+// myImages.push(images);
+
+// }
+
+// containerGalleryEl.append(...myImages);
+
+
+
