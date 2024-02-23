@@ -1,7 +1,13 @@
 
-const liElem = document.querySelector("li");
+const liElem = document.querySelectorAll("li.item");
 
-console.log(liElem);
+console.log(`Numbers of categories: ${liElem.length}`);
+
+liElem.forEach((el) => 
+console.log( `Category: ${el.firstElementChild.textContent}\n Elements: ${el.lastElementChild.children.length}\n`)
+);
+
+
 
 // З використанням властивостей і методів DOM-елементів, напиши скрипт, який:
 
