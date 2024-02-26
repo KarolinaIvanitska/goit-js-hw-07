@@ -30,29 +30,27 @@ const images = [
 ];
 
 
-// const containerGalleryEl = document.querySelector(".gallery");
+const containerGalleryEl = document.querySelector(`.gallery`);
 
-// const myImages = [];
+document.addEventListener("DOMContentLoaded", renderPage);
 
-
-// for (const image of images) {
-//   const liElem = document.createElement ("li");
-//   liElem.classList.add("gallery-item");
-
-
-//   const firstChild = document.createElement("img");
-//   firstChild.style.width = "300px";
-//   firstChild.style.height = "360px";
-//   firstChild.src = images.url;
-//   firstChild.alt = images.alt;
-
-// myImages.append(firstChild);
-
-// myImages.push(images);
-
-// }
-
-// containerGalleryEl.append(...myImages);
+function renderPage(){
+  const newArr = [];
+  
+  images.forEach(image => {
+    const liElem = document.createElement("li");
+    const imgEl = document.createElement("img");
+    imgEl.src = image.url;
+    imgEl.alt = image.alt;
+    imgEl.style.width = "300px";
+    imgEl.style.height = "360px";
+    containerGalleryEl.appendChild(liElem);
+    liElem.appendChild(imgEl);
+    newArr.push(liElem);
+  })
+  
+  containerGalleryEl.append(...newArr);
+}
 
 
 
