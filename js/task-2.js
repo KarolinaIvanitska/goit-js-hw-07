@@ -42,8 +42,8 @@ function renderPage(){
     const imgEl = document.createElement("img");
     imgEl.src = image.url;
     imgEl.alt = image.alt;
-    imgEl.style.width = "300px";
-    imgEl.style.height = "360px";
+    imgEl.style.width = "360px";
+    imgEl.style.height = "300px";
     containerGalleryEl.appendChild(liElem);
     liElem.appendChild(imgEl);
     newArr.push(liElem);

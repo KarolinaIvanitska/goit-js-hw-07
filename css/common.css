@@ -56,12 +56,13 @@ img {
   justify-content: center;
   align-items: center;
   row-gap: 24px;
-  column-gap: 64px;
+  column-gap: 50px;
   list-style-type: none;
   
 }
 
-/* після галерії  */
+/* task 1 */
+
 
 ul#categories {
   max-width: 440px;
@@ -108,4 +109,26 @@ ul#categories ul {
   width: 360px;
 
   padding: 8px 16px 8px 16px;
+}
+
+
+/* task 3 */
+
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+#name-input {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  width: 360px;
+  height: 40px;
+  border-color: #808080;
+  border-radius: 8px;
 }
