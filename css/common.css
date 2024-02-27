@@ -149,7 +149,36 @@ h1 {
   height: 256px;
 }
 
-.input-email {
+/* .input-email {
   width: 360px;
   height: 40px;
+} */
+
+
+/* task 6 */
+#controls {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+}
+
+
+#boxes {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 160px;
 }
