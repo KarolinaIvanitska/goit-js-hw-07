@@ -132,3 +132,24 @@ h1 {
   border-color: #808080;
   border-radius: 8px;
 }
+
+
+/* task 4 */
+
+.login-form{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+}
+
+.input-email {
+  width: 360px;
+  height: 40px;
+}
