@@ -12,7 +12,7 @@ function onFormSubmit(e){
         return alert('All form fields must be filled in');
     }
 
-    console.log({email:email.value, password: password.value});
+    console.log({email: email.value.trim(), password: password.value.trim()});
 
     e.currentTarget.reset();
 }
